@@ -1,3 +1,4 @@
+import imgUrl from '../../src/assets/code-mockup.png';
 import { useState, FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
@@ -68,7 +69,7 @@ export function Subscribe() {
         </div>
       </div>
       
-      <img src="../../src/assets/code-mockup.png" className="mt-10" alt="" />
+      <img src={imgUrl} className="mt-10" alt="" />
     </div>
   )
 }
